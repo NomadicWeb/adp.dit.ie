@@ -1,6 +1,13 @@
 unthink-wireframes
 ==================
 
+###General guidelines
+- don't gorp the repo
+- try and not touch the base bootstrap.css + bootstrap-theme.css,
+  create a seperate css file for each template
+- try and keep the javascript modular, if possible create seperate js file for each template
+- get rich
+
 ### Docs
 - [Twitter Bootstrap docs](http://getbootstrap.com/)
 - [Grid tutorial #1](http://www.helloerik.com/bootstrap-3-grid-introduction)
