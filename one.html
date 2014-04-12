@@ -87,7 +87,36 @@
         </div>
 		
 		<div class="row slider-row">
-			<div class="col-md-7"> col baby</div>
+			<div class="col-md-7">
+				<div id="Slider" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#Slider" data-slide-to="0" class="active"></li>
+						<li data-target="#Slider" data-slide-to="1"></li>
+						<li data-target="#Slider" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="Images/banner.jpg" alt="Image 1">
+						</div>
+						<div class="item">
+							<img src="Images/banner.jpg" alt="Image 2">
+						</div>
+						<div class="item">
+							<img src="Images/banner.jpg" alt="Image 3">
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#Slider" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#Slider" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>				
+				</div><!-- End of the slider -->
+			</div><!-- end of col -->
 			<div class="col-md-5">
 				<div class="row slider-row2">
 					<div class="col-md-5">
@@ -126,7 +155,17 @@
 		</div><!--end of the category row-->
 		
 		<div class="row question">
-			<div class="col-md-6">Choose a course</div><!-- this is a dropdown -->
+			<div class="col-md-6 data-toggle=dropdown">
+					<a data-toggle="dropdown" href="#">Choose a Course</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<li>Insert your menus here</li>
+						<li>Insert your menus here</li>
+						<li>Insert your menus here</li>
+						<li>Insert your menus here</li>
+						<li>Insert your menus here</li>
+						<li>Insert your menus here</li>
+					</ul>
+			</div><!-- this is a dropdown -->
 			<div class="col-md-6">What do you want to be? (a hooker?)</div><!--This is a dropdown -->
 		</div><!--end of the row question -->
 		
@@ -228,5 +267,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		 // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+		$('.dropdown').on('show.bs.dropdown', function(e){
+			$(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+		});
+
+		// ADD SLIDEUP ANIMATION TO DROPDOWN //
+		$('.dropdown').on('hide.bs.dropdown', function(e){
+			$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+		});
+	</script>
   </body>
 </html>
