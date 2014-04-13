@@ -10,6 +10,19 @@
     margin-left:auto;
     margin-right:auto;
 }
+
+.header-row .col-md-12 h1{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.header-spacer{
+    margin-top:20px;
+    margin-bottom:20px;
+}
 /* end row styles */
 
 /* iframe item styles */
