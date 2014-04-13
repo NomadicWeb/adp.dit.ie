@@ -22,6 +22,12 @@ ul li{
 }
 /* end general styles */
 
+/* navbar style */
+.nav .navbar{
+    background-color:white !important;
+}
+/* end navbar style */
+
 /* row styles */
 .courses-row .col-md-4 h1{
     width:80%;
