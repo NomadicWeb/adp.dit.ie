@@ -18,7 +18,8 @@ ul li{
     margin-left:10px;
 }
 
-.dropdown:hover div{
+.dropdown:hover div,
+.category-row div:hover{
     background-color:#DCDCDC;
 }
 /* end general styles */
