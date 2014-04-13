@@ -44,8 +44,16 @@ ul li{
     margin-right:auto;
 }
 
-.footer-row ul{
+.footer-row ul,
+.info-row ul {
     padding:10px !important;
+}
+
+.info-row ul li{
+    width:95%;
+    margin-top:5px;
+    border-bottom: 1px black solid;
+    margin-bottom:5px;
 }
 /* end row styles */
 
