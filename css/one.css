@@ -12,6 +12,10 @@
 ul li{
     list-style:none;
 }
+
+.dropdown:hover div{
+    background-color:#DCDCDC;
+}
 /* end general styles */
 
 /* row styles */
