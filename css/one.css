@@ -41,10 +41,10 @@ ul li{
     margin-bottom:8px;
 }
 /* end navbar style */
-n
+
 /* row styles */
 .courses-row .col-md-4 h1{
-    width:80%;
+    width:70%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -73,7 +73,8 @@ n
     padding:10px !important;
 }
 
-.info-row ul li{
+.info-row ul li,
+.slider-row2 ul li{
     width:95%;
     margin-top:5px;
     border-bottom: 1px black solid;
