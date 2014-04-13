@@ -5,7 +5,7 @@
 */
 
 /* general styles */
-*{
+.navbar-collapse, .container, .row{
     border:1px black solid;
 }
 
@@ -23,8 +23,12 @@ ul li{
 /* end general styles */
 
 /* navbar style */
-.nav .navbar{
+.navbar-collapse, .navbar, .navbar-default{
     background-color:white !important;
+}
+
+.navbar{
+    min-height: 10px !important;
 }
 /* end navbar style */
 
