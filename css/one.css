@@ -5,7 +5,8 @@
 */
 
 /* general styles */
-.navbar-collapse, .container, .row{
+.navbar-collapse, .container, .row,
+.welcome-row .col-md-7{
     border:1px black solid;
 }
 
@@ -112,3 +113,9 @@ ul li{
     width: 100% !important;
 }
 /* end drop-down menu styles */
+
+/* footer styles */
+.social-buttons{
+    margin-top:10px;
+}
+/* end footer styles */
