@@ -30,6 +30,11 @@ ul li{
 .navbar{
     min-height: 10px !important;
 }
+
+.menu_item{
+    margin-top:8px;
+    margin-bottom:4px;
+}
 /* end navbar style */
 
 /* row styles */
