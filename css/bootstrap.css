@@ -1376,6 +1376,11 @@ pre code {
     width: 1140px;
   }
 }
+@media (min-width: 1920px) {
+  .container {
+    width: 1860px;
+  }
+}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
