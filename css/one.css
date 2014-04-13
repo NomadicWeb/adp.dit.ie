@@ -35,8 +35,13 @@ ul li{
     margin-top:8px;
     margin-bottom:4px;
 }
-/* end navbar style */
 
+.second-menu-row .menu_item{
+    margin-top:12px;
+    margin-bottom:8px;
+}
+/* end navbar style */
+n
 /* row styles */
 .courses-row .col-md-4 h1{
     width:80%;
