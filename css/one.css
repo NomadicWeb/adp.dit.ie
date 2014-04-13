@@ -39,6 +39,10 @@ ul li{
     margin-left:auto;
     margin-right:auto;
 }
+
+.footer-row ul{
+    padding:10px !important;
+}
 /* end row styles */
 
 /* breadcrumb styles */
