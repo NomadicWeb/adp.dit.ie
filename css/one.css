@@ -4,6 +4,14 @@
  * and either overload or specify unique styling.
 */
 
+/* row styles */
+.courses-row .col-md-4 h1{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* end row styles */
+
 /* iframe item styles */
 .video-container {
     position: relative; padding-bottom: 31.00%;
@@ -21,8 +29,6 @@
     height: 100%; }
 /* end iframe style */
     
-
-
 /* drop-down menu styles */
 .dropdown-menu-custom {
     width: 100% !important;
