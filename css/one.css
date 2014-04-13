@@ -18,11 +18,20 @@ ul li{
     margin-left:10px;
 }
 
-.dropdown:hover div,
-.category-row div:hover{
+.dropdown:hover div{
     background-color:#DCDCDC;
 }
 /* end general styles */
+
+/* hover styles */
+/* @todo - http://jsfiddle.net/Vj65m/ */
+.hover-image{
+    background:url("http://dummyimage.com/600x400/c2a9c2/4d4e69.jpg");
+}
+.hover-image:hover{
+    background-color: rgba(248, 247, 216, 0.7);
+}
+/* end hover styles */
 
 /* navbar style */
 .navbar-collapse, .navbar, .navbar-default{
