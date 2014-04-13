@@ -2,8 +2,6 @@ unthink-wireframes
 ==================
 
 ## TODO
- - make iframe responsive
- - Add caret to dropdowns
  - Replace following text with blank spaces, and when hover, show the text
     Hospitality Tourism Event Leisure
     Undergraduate Courses Postgraduate Courses 
