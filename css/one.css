@@ -13,6 +13,10 @@ ul li{
     list-style:none;
 }
 
+.left-space{
+    margin-left:10px;
+}
+
 .dropdown:hover div{
     background-color:#DCDCDC;
 }
@@ -61,6 +65,7 @@ ul li{
 .breadcrumb{
     margin-top:10px;
     margin-bottom:5px;
+    background-color:white !important;
 }
 /* end breadcrumb styles */
 
