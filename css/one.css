@@ -4,6 +4,16 @@
  * and either overload or specify unique styling.
 */
 
+/* general styles */
+*{
+    border:1px black solid;
+}
+
+ul li{
+    list-style:none;
+}
+/* end general styles */
+
 /* row styles */
 .courses-row .col-md-4 h1{
     width:80%;
@@ -22,6 +32,12 @@
 .header-spacer{
     margin-top:20px;
     margin-bottom:20px;
+}
+
+.welcome-spacer{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 /* end row styles */
 
