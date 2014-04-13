@@ -41,6 +41,13 @@ ul li{
 }
 /* end row styles */
 
+/* breadcrumb styles */
+.breadcrumb{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+/* end breadcrumb styles */
+
 /* iframe item styles */
 .video-container {
     position: relative; padding-bottom: 31.00%;
