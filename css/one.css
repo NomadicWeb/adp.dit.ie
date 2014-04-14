@@ -24,12 +24,17 @@ ul li{
 /* end general styles */
 
 /* hover styles */
-/* @todo - http://jsfiddle.net/Vj65m/ */
-.hover-image{
-    background:url("http://dummyimage.com/600x400/c2a9c2/4d4e69.jpg");
+.hover-content h1{
+    display:none;
 }
-.hover-image:hover{
-    background-color: rgba(248, 247, 216, 0.7);
+.hover-content:hover img{
+    opacity:0.5;
+}
+.hover-content:hover h1{
+    position:absolute;
+    margin-left:22%;
+    margin-top:19%;
+    display:block;
 }
 /* end hover styles */
 
