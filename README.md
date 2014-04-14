@@ -2,23 +2,11 @@ unthink-wireframes
 ==================
 
 ## TODO
- - make iframe responsive
-
- - add extra wide breakpoint (1920px)
-
- - Decide about carousel images (must mandate size+width!)
-
- - Add caret to dropdowns
-
  - Replace following text with blank spaces, and when hover, show the text
     Hospitality Tourism Event Leisure
     Undergraduate Courses Postgraduate Courses 
     Part-time/Short Courses Student Staff Alumni 
-
  - write documentation
- - minify everything
- - order all into folders
-
  - finish other 5 wireframes
 
 ###General guidelines
