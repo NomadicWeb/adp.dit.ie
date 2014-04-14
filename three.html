@@ -1,26 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Front page</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/front_page.css" rel="stylesheet">
+    <!-- page title -->
+    <title>Insert title here</title>
+
+    <!-- style sheet declarations -->
+    <link href="css/bootstrap.css" rel="stylesheet">         <!-- base bootstrap style -->
+    <link href="css/one.css" rel="stylesheet">               <!-- custom styles -->
+
+    <!-- Usage : http://lipis.github.io/bootstrap-social/ -->
+    <link href="css/bootstrap-social.css" rel="stylesheet">  <!-- bootstrap social icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">      <!-- bootstrap social icons -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div> <!-- end navbar-header -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                </ul>
+                <div class="col-sm-12">
+                    <div class="col-sm-4">
+                        <div class="col-md-9">
+                            <div class="menu_item col-md-6 text-center">Home</div>
+                            <div class="menu_item col-md-6 text-center">About DIT</div>
+                        </div>
+                        <div class="menu_item col-md-3 text-center">Find DIT</div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="col-md-9">
+                            <div class="menu_item col-md-6 text-center">News and Events</div>
+                            <div class="menu_item col-md-6 text-center">Staff Contacts</div>
+                        </div>
+                        <div class="menu_item col-md-3 text-center">Sitemap</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-md-9">
+                            <div class="menu_item col-md-6 text-center">Help</div>
+                            <div class="menu_item col-md-6 text-center">Privacy Statement</div>
+                        </div>
+                        <div class="menu_item col-md-3 text-center small">text size: AAA print page</div>
+                    </div>
+                </div>
+            </div> <!-- end navbar-collapse -->
+        </nav> <!-- end navbar -->
+
+        <div class="row header-row">
+            <div class="col-md-12 text-center">
+                <div class="header-spacer">
+                    <h1>School of Hospitality </h1>
+                    <h1>Management & Tourism</h1>
+                </div>
+            </div>
+        </div> <!-- end header-row -->
+
+        <div class="row second-menu-row">
+            <div class="col-sm-12">
+                <div class="col-sm-3">
+                    <div class="menu_item col-md-6 text-center">Find a course</div>
+                    <div class="menu_item col-md-6 text-center">Campus Life</div>
+                </div>
+                <div class="menu_item col-sm-2 text-center">People</div>
+                <div class="menu_item col-sm-2 text-center">Student Resources</div>
+                <div class="menu_item col-sm-2 text-center">News &amp; Events</div>
+                <div class="col-sm-3">
+                    <div class="menu_item col-md-6 text-center">Research</div>
+                    <div class="menu_item col-md-6 text-center">How to Apply</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row undergraduate-row">
+           
+			<div class="col-md-6">
+				<h1 class="text-center">Undergraduate</h1>
+				<h2 class="text-center">Hospitality</h2>
+				<ul>
+					<li>
+					<h3 class="text-center">DT408 BA Hospitality Management</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT401 BSc International Hospitality Management</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT408A BSc Hospitality Management (One year add-on)</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT451 Higher Certificate in Hospitality Services Management (Part-time)</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT458 Higher Certificate in Hospitality Management (Part-time)</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT460 BA (Ord) in Hospitality Management (Part-time)</h3>
+					</li>
+				</ul>
+				<h2 class="text-center">Tourism</h2>
+				<ul>
+					<li>
+					<h3 class="text-center">DT406 BA Tourism Management (One year add-on)</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT401 BSc International Hospitality Management</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT412 BSc Tourism Marketing</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT406A BSc Tourism Management</h3>
+					</li>
+				</ul>
+				<h2 class="text-center">Event & Leisure</h2>
+				<ul>
+					<li>
+					<h3 class="text-center">DT413 BSc Event Management</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT411 BA Leisure Management</h3>
+					</li>
+					<li>
+					<h3 class="text-center">DT411H BSc Leisure Management (One year add-on)</h3>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+			
+			</div>
+        </div> <!-- end of slider row -->
+
+        <div class="row welcome-row">
+            <div class="col-md-7">
+                <div class="welcome-spacer">
+                    <small>Hospitality Management &amp; Tourism</small>
+                    <h1>Welcome</h1>
+                    <p>The School of Hospitality Management and Tourism, Cathal Brugha Street,
+                       has been synonymous with the hospitality and catering industry in Ireland
+                       since 1941. In Ireland, this School is the leading centre of learning and teaching
+                       in hospitality, tourism, event and leisure management.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div><!--end of welcome row-->
+
+        <div class="row category-row">
+            <div class="hover-content">
+                <h1 class="text-center">Hospitality</h1>
+                <img src="http://dummyimage.com/600x400/c2a9c2/4d4e69.jpg" class="img-responsive">
+            </div>
+        </div><!--end of the category row-->
+
+        <div class="row question">
+            <div class="dropdown">
+                <div class="col-md-6" data-toggle="dropdown">
+                    <h4 class="pull-left left-space">Choose a Course</h4>
+                    <ul class="dropdown-menu dropdown-menu-custom" role="menu" aria-labelledby="dLabel">
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                    </ul>
+                    <div class=" pull-right caret-spacer">
+                        <span>X</span> 
+                    </div>
+                </div>
+            </div><!-- end of the dropdown -->
+            <div class="dropdown">
+                <div class="col-md-6" data-toggle="dropdown">
+                    <h4 class="pull-left left-space">What do you want to be?</h4>
+                    <ul class="dropdown-menu dropdown-menu-custom" role="menu" aria-labelledby="dLabel">
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                    </ul>
+                    <div class="pull-right caret-spacer">
+                        <span>X</span> 
+                    </div>
+                </div>
+            </div>
+        </div><!--end of the row question -->
+
+        <div class="row courses-row">
+                <div class="col-md-4">
+                    <h1>Undergraduate Course</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1>Postgraduate Course</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1>Part-time/Short Courses</h1>
+                </div>
+        </div><!--end of courses row-->
+
+        <div class="row staff-student-info-row">
+            <div class="col-md-4 text-center">
+                <h1>Student</h1>
+            </div>
+            <div class="col-md-4 text-center">
+                <h1>Staff</h1>
+            </div>
+            <div class="col-md-4 text-center">
+                <h1>Alumni</h1>
+            </div>
+        </div><!--end of staff student info row-->
+
+        <div class="row info-row">
+            <div class="col-md-4">
+                <h2 class="left-space">Events</h2>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Open Day 11th April</li>
+                    <li>Rag Week 2-7th May</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>In Conversation with Laura Mulvey 10th June </li>
+                    <li>Memories of the Future</li>
+                </ul>
+            </div>
+        </div><!--end of info row-->
+
+        <div class="row bottom-dropdown-row">
+            <div class="dropdown">
+                <div class="col-md-4" data-toggle="dropdown">
+                    <h4 class="pull-left left-space">News Archive</h4>
+                    <ul class="dropdown-menu dropdown-menu-custom" role="menu" aria-labelledby="dLabel">
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                    </ul>
+                </div>
+            </div><!-- End of the dropdown -->
+            <div class="dropdown">
+                <div class="col-md-4" data-toggle="dropdown">
+                    <h4 class="pull-left left-space">Erasmus Students</h4>
+                    <ul class="dropdown-menu dropdown-menu-custom" role="menu" aria-labelledby="dLabel">
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                    </ul>
+                </div>
+            </div><!-- End of the dropdown -->
+            <div class="dropdown">
+                <div class="col-md-4" data-toggle="dropdown">
+                    <h4 class="pull-left left-space">International Students</h4>
+                    <ul class="dropdown-menu dropdown-menu-custom" role="menu" aria-labelledby="dLabel">
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                        <li>Insert your menus here</li>
+                    </ul>
+                </div>
+            </div><!-- End of the dropdown -->
+        </div><!--end of info row-->
+
+        <div class="row breadcrumb">
+            <div>
+                Home &#8594; Colleges &amp; Schools &#8594; College of Hospitality Management &amp; Tourism
+            </div>
+        </div>
+
+        <div class="row footer-row">
+            <div class="col-md-3">
+                <ul>
+                    <li>Courses</li>
+                    <li>Prospective Students</li>
+                    <li>Current Students</li>
+                    <li>Alumni</li>
+                    <li>About Us</li>
+                    <li>Admissions</li>
+                    <li>Applications</li>
+                    <li>Home DIT</li>
+                    <li>Student Services Campus</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li>Cathal Brugha Street,</li>
+                    <li>Dublin 1,</li>
+                    <li>Ireland </li>
+                    <li>t: +353-1-4024352</li>
+                    <li>f: +353-1-4024496</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li>Credits</li>
+                    <li>design: html: Unthink</li>
+                    <li>build: Nomadic Web Soloutions</li>
+                    <li>cms: roomthree design</li>
+                </ul>
+            </div>
+            <div class="col-md-3 social-buttons">
+                <a class="btn btn-social-icon btn-xs btn-facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="btn btn-social-icon btn-xs btn-twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="btn btn-social-icon btn-xs btn-linkedin">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </div><!-- end of container -->
+
+    <!-- Javascript loading -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/one.js"></script>
   </body>
 </html>
