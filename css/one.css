@@ -14,13 +14,31 @@ ul li{
     list-style:none;
 }
 
-.left-space{
-    margin-left:10px;
+ul{
+    padding:0px !important;
 }
 
-.dropdown:hover div{
-    background-color:#DCDCDC;
+.content-spacer{
+    width:80%;
+    padding:0px !important;
+    margin: 30px 30px 30px 30px;
 }
+
+.info-row h3{
+    margin-left:20px;
+}
+
+.form-group input{
+    margin-top:10px;
+    margin-right:10px;
+    width:80%;
+}
+
+.remove-space{
+    margin:0px;
+    padding:0px;
+}
+
 /* end general styles */
 
 /* navbar style */
@@ -58,24 +76,12 @@ ul li{
     margin-top:0px;
 }
 
-.header-spacer{
-    margin-top:20px;
-    margin-bottom:20px;
-}
-
-.welcome-spacer{
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 .footer-row ul,
 .info-row ul {
     padding:10px !important;
 }
 
-.info-row ul li,
-.slider-row2 ul li{
+.margin-bottom li{
     width:95%;
     margin-top:5px;
     border-bottom: 1px black solid;
