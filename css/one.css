@@ -23,21 +23,6 @@ ul li{
 }
 /* end general styles */
 
-/* hover styles */
-.hover-content h1{
-    display:none;
-}
-.hover-content:hover img{
-    opacity:0.5;
-}
-.hover-content:hover h1{
-    position:absolute;
-    margin-left:22%;
-    margin-top:19%;
-    display:block;
-}
-/* end hover styles */
-
 /* navbar style */
 .navbar-collapse, .navbar, .navbar-default{
     background-color:white !important;
