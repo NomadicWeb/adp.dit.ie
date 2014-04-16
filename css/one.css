@@ -24,7 +24,9 @@ ul{
     margin: 30px 30px 30px 30px;
 }
 
-.info-row h3{
+.info-row h3,
+.bottom-dropdown-row .col-md-4 h4,
+.question-row .col-md-6 h4{
     margin-left:20px;
 }
 
@@ -50,14 +52,10 @@ ul{
     min-height: 10px !important;
 }
 
-.menu_item{
-    margin-top:8px;
-    margin-bottom:4px;
-}
-
-.second-menu-row .menu_item{
+.second-menu-row  .col-md-6,
+.second-menu-row .col-sm-2 {
     margin-top:12px;
-    margin-bottom:8px;
+    margin-bottom:8px !important;
 }
 /* end navbar style */
 
@@ -68,7 +66,7 @@ ul{
     margin-right:auto;
 }
 
-.header-row .col-md-12 h1{
+.center-header *{
     width:50%;
     margin-left:auto;
     margin-right:auto;
