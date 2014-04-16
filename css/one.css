@@ -124,6 +124,16 @@ ul{
 .dropdown-menu-custom {
     width: 100% !important;
 }
+/* div to show when hovering images*/
+.hover-overlay{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:#DCDCDC;
+	opacity: 0;
+
+}
 
 .caret-spacer{
     margin-top:10px;
