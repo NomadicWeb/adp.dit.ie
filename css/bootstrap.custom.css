@@ -1,18 +1,14 @@
 /* bootstap.custom.css
  * custom styles for the wireframes.
 */
+
 .navbar-collapse, .container, .row,
 .welcome-row .col-md-7{
     border:1px black solid;
 }
 
-ul li{
-    list-style:none;
-}
-
-ul{
-    padding:0px !important;
-}
+ul li{list-style:none;}
+ul{padding:0px !important;}
 
 .content-spacer{
     width:80%;
