@@ -1,9 +1,6 @@
-/* C U S T O M   S T Y L E S H E E T 
- *
- * All styles included here are specific to one.html
- * and either overload or specify unique styling.
+/* bootstap.custom.css
+ * custom styles for the wireframes.
 */
-
 .navbar-collapse, .container, .row,
 .welcome-row .col-md-7{
     border:1px black solid;
