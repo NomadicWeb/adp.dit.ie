@@ -8,11 +8,11 @@
     <title>Insert title here</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">         <!-- base bootstrap style -->
-    <link href="css/one.css" rel="stylesheet">               <!-- custom styles -->
+    <link href="css/bootstrap.custom.css" rel="stylesheet">  <!-- custom styles -->
 
     <!-- Usage : http://lipis.github.io/bootstrap-social/ -->
-    <link href="css/bootstrap-social.css" rel="stylesheet">  <!-- bootstrap social icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">      <!-- bootstrap social icons -->
+    <link href="css/bootstrap.social.css" rel="stylesheet">  <!-- bootstrap social icons -->
+    <link href="css/font.awesome.css" rel="stylesheet">      <!-- bootstrap social icons -->
 
     <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -372,18 +372,7 @@
 
     <!-- Javascript loading -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script>
-         // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
-        $('.dropdown').on('show.bs.dropdown', function(e){
-            $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
-        });
-
-        // ADD SLIDEUP ANIMATION TO DROPDOWN //
-        $('.dropdown').on('hide.bs.dropdown', function(e){
-            $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
-        });
-    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.custom.js"></script>
   </body>
 </html>
