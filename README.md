@@ -2,12 +2,9 @@ unthink-wireframes
 ==================
 
 ## TODO
- - Replace following text with blank spaces, and when hover, show the text
-    Hospitality Tourism Event Leisure
-    Undergraduate Courses Postgraduate Courses 
-    Part-time/Short Courses Student Staff Alumni 
- - write documentation
- - finish other 5 wireframes
+    - write docs
+    - make deliverable
+    - clean ups
 
 ###General guidelines
 - don't gorp the repo
