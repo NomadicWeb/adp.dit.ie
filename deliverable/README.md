@@ -3,7 +3,10 @@
   2. breakpoints
   3. css
   4. javascript
-  5. carousel images
+        - hover effect - images + text
+  5. images in general
+        - carousel
+        - using images in the grid
 
 ## 1. introduction
 
