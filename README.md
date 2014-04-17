@@ -1,11 +1,6 @@
 unthink-wireframes
 ==================
 
-## TODO
-    - write docs
-    - make deliverable
-    - clean ups
-
 ###General guidelines
 - don't gorp the repo
 - try and not touch the base bootstrap.css + bootstrap-theme.css,
