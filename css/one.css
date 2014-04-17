@@ -26,7 +26,8 @@ ul{
 
 .info-row h3,
 .bottom-dropdown-row .col-md-4 h4,
-.question-row .col-md-6 h4{
+.question-row .col-md-6 h4,
+.question-row .col-md-3 h4{
     margin-left:20px;
 }
 
@@ -38,7 +39,7 @@ ul{
 .form-group input{
     margin-top:10px;
     margin-right:10px;
-    width:80%;
+    width:90%;
 }
 
 .remove-space{
@@ -124,16 +125,6 @@ ul{
 /* drop-down menu styles */
 .dropdown-menu-custom {
     width: 100% !important;
-}
-/* div to show when hovering images*/
-.hover-overlay{
-
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color:#DCDCDC;
-	opacity: 0;
-
 }
 
 .caret-spacer{
