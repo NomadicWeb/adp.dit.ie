@@ -9,7 +9,7 @@
         - using images in the grid
 
 ## 1. overview
-So, 6 wireframes in total. We used the [bootstrap framework](getbootstrap.com) as a building block as it provides a decent grid system and a lot of good web practices backed in from the start. This documentation is just to cover the general points on the deliverable and any specifics on some of the tricky javascript bits.
+So, 6 wireframes in total. We used the [bootstrap framework](getbootstrap.com) as a building block as it provides a decent grid system and a lot of good web practices backed in from the start. This documentation is just to cover the general points on the deliverable and any specifics on some of the tricky javascript bits. All flat html files are named to match the wireframe doc names, and all assets are located within their relevant folder.
 
 ## 2. breakpoints
 The wireframes are fully responsive with a total of 5 breakpoints:
