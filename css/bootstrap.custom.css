@@ -106,52 +106,38 @@ ul{padding:0px !important;}
     width: 100% !important;
 }
 
-.caret-spacer{
+.caret-spacer {
     margin-top:10px;
     margin-right:10px;
 }
 
-.social-buttons{
+.social-buttons {
     margin-top:10px;
 }
 
 /** CSS Properties for overlays applied to images**/
-.image-hover-overlay{
-
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(128, 128, 128, 0.5);
-	opacity: 0;
+.image-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    opacity: 0;
 
 }
-
-.image-hover-text{
-	padding-top:10%;
-}
-
 
 /** CSS Properties for overlays applied to columns with just text**/
-.text-hover-overlay{
-
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #7F7F7F;
-	opacity: 0;
-
+.text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #7F7F7F;
+    opacity: 0;
 }
 
-.placeholder-text{
+.image-hover-text{ padding-top:10%; }
+.text-hover-column{ height:100px; }
 
-margin:0 !important;
-padding:50px;
+.placeholder-text {
+    margin:0 !important;
+    padding:50px;
 }
-
-.text-hover-column{
-
-height:100px;
-
-}
-
-
