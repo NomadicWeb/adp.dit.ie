@@ -48,11 +48,6 @@ ul{padding:0px !important;}
     min-height: 10px !important;
 }
 
-.navbar-collapse .col-sm-12 .col-sm-4{
-    margin-top:12px;
-    margin-bottom:8px !important;
-}
-
 .courses-row .col-md-4 h1{
     width:70%;
     margin-left:auto;
@@ -140,4 +135,8 @@ ul{padding:0px !important;}
 .placeholder-text {
     margin:0 !important;
     padding:50px;
+}
+
+.menu_item{
+    height:30px;
 }
